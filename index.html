@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	   <title>Sounds</title>
+	   <link rel="stylesheet" type="text/css" href="style.css">
+	  <meta charset="utf-8">
+	  <!-- <meta name="description" content="Using the Grids and Flexbox"> -->
+	  <!-- <meta name="keywords" content="HTML, CSS, Grids,Flexbox, Web Development"> -->
+	  <meta name="author" content="Hardik Chopra">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+	  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+<body>
+
+<header>
+	<h1>Welcome to Virtual Piano</h1>
+	<p>Press the specified keys or click on the piano to play !!</p>
+</header>
+
+<section>
+	
+	<div id="piano">
+		<div data-note="65" class="keys white endKey">a</div>
+		<div data-note="83" class="keys black">s</div>
+		<div data-note="68" class="keys white">d</div>
+		<div data-note="70" class="keys black">f</div>
+		<div data-note="71" class="keys white">g</div>
+		<div data-note="72" class="keys white">h</div>
+		<div data-note="74" class="keys black">j</div>
+		<div data-note="75" class="keys white">k</div>
+		<div data-note="76" class="keys black">l</div>
+		<div data-note="186" class="keys white">;</div>
+		<div data-note="222" class="keys black">'</div>
+		<div data-note="220" class="keys white">\</div>
+        <div data-note="90" class="keys white">z</div>
+		<div data-note="88" class="keys black">x</div>
+		<div data-note="67" class="keys white">c</div>
+		<div data-note="86" class="keys black">v</div>
+		<div data-note="66" class="keys white endKey">b</div>
+	</div>
+
+	<!-- <div id="drums">
+		<div data-note="81" class="keys ">q</div>
+		<div data-note="87" class="keys ">w</div>
+		<div data-note="69" class="keys ">e</div>
+		<div data-note="82" class="keys ">r</div>
+		<div data-note="84" class="keys ">t</div>
+		<div data-note="89" class="keys ">y</div>
+		<div data-note="85" class="keys ">u</div>
+		<div data-note="73" class="keys ">i</div>
+		<div data-note="79" class="keys ">o</div>
+		<div data-note="80" class="keys ">p</div>	
+	</div>
+ -->
+<!-- each audio has a id equal to the datanote of the keys (which will help in accessing them)	 -->
+ <audio id="65" src="audios/A.wav"></audio>	      
+ <audio id="83" src="audios/S.wav"></audio>	
+ <audio id="68" src="audios/D.wav"></audio>
+ <audio id="70" src="audios/F.wav"></audio>	
+ <audio id="71" src="audios/G.wav"></audio>	
+ <audio id="72" src="audios/H.wav"></audio>	
+ <audio id="74" src="audios/J.wav"></audio>	
+ <audio id="75" src="audios/K.wav"></audio>	
+ <audio id="76" src="audios/L.wav"></audio>	
+ <audio id="186" src="audios/colon.wav"></audio>	
+ <audio id="222" src="audios/quote.wav"></audio>	
+ <audio id="220" src="audios/slash.wav"></audio>	
+ <audio id="88" src="audios/X.wav"></audio>	
+ <audio id="90" src="audios/Z.wav"></audio>	
+ <audio id="67" src="audios/C.wav"></audio>	
+ <audio id="86" src="audios/V.wav"></audio>	
+ <audio id="66" src="audios/B.wav"></audio>
+<!-- ------------------------------------------------------------------>
+<!-- <audio id="81" src="audios/Q.wav"></audio>
+<audio id="87" src="audios/W.wav"></audio>
+<audio id="69" src="audios/E.wav"></audio>
+<audio id="82" src="audios/R.wav"></audio>
+<audio id="84" src="audios/T.wav"></audio>
+<audio id="89" src="audios/Y.wav"></audio>
+<audio id="85" src="audios/U.wav"></audio>
+<audio id="73" src="audios/I.wav"></audio>
+<audio id="79" src="audios/O.wav"></audio>
+<audio id="80" src="audios/P.wav"></audio> -->
+
+</section>
+<script src="script.js" ></script>
+</body>
+</html>
