@@ -79,3 +79,34 @@ section{
 	background-color: rgba(74,239,231,1);
 	transform: scale(1.01);
 }
+
+/* only for the phones  */
+#note{
+   display: none;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 2rem;
+}
+
+@media (max-width: 800px){
+
+    html{
+       background-color: #1C1C1C;
+       background-image:url("https://images.unsplash.com/photo-1557683304-673a23048d34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+    
+    *{
+        color: #ffffff;
+    }
+
+    #note{
+        display:inline-block;
+    }
+
+}
+
