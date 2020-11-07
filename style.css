@@ -99,13 +99,10 @@ section{
        background-size: cover;
        background-repeat: no-repeat;
     }
-    
-    *{
-        color: #ffffff;
-    }
 
     #note{
         display:inline-block;
+        color: #ffffff;
     }
 
 }
