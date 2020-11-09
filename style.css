@@ -75,9 +75,46 @@ section{
 	border-radius: 0;
 }
 
+/* The Drums */
+
+.heading{
+    text-align: center;
+    font-size: 3rem;  
+    color: #3C696C;     
+}
+
+#drumHeading{
+    margin: 1rem;
+    color: #91cdff;
+}
+
+
+#drumSet{
+    padding:1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill , minmax(210px,1fr));
+    align-items: stretch;
+
+}
+
+.drum{
+    display: grid;
+    align-items: center;
+    box-shadow: none;
+    height:7rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: linear-gradient(to left, rgb(2,62,71), rgb(0,128,141));
+    box-shadow: 1px 5px 10px #000000;
+}
+
+
 .playing{
 	background-color: rgba(74,239,231,1);
 	transform: scale(1.01);
+	background-image: none;
 }
 
 /* only for the phones  */
@@ -104,6 +141,10 @@ section{
         display:inline-block;
         color: #ffffff;
     }
+   
+    .heading{
+        color: #91cdff;
+    }	
 
 }
 
