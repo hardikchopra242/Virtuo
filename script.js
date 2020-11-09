@@ -31,7 +31,7 @@ keys.forEach( key => {
 //Keyboard Press Event
 //Now we will add the key functionality also...
 //What we will do is we will make an array of the keys , if the entered key matches the array element we will play that index's audio....
-const arrayKeys = ['b','a','s','d','f','g','h','j','k','l', ';' ,"'",'\\','z','x','c','v'];
+const arrayKeys = ['b','a','s','d','f','g','h','j','k','l', ';' ,"'",'\\','z','x','c','v','q','w','e','r','t','y','u','i','o','p'];
 
 document.addEventListener('keydown' , e => {
 	if (e.repeat) return;   //if key pressed for long it returns 
