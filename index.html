@@ -17,11 +17,12 @@
 <body>
 
 <header>
-	<h1>Welcome to Virtual Piano</h1>
+	<h1>Welcome to Virtual World</h1>
 	<p>Press the specified keys or click on the piano to play !!</p>
 </header>
 
 <section>
+	<h1 class ="heading">PIANO</h1>	
 	
 	<div id="piano">
 		<div data-note="66" class="keys white endKey">b</div>
@@ -43,19 +44,22 @@
                 <div data-note="90" class="keys white endKey">v</div>
 	</div>
 
-	<!-- <div id="drums">
-		<div data-note="81" class="keys ">q</div>
-		<div data-note="87" class="keys ">w</div>
-		<div data-note="69" class="keys ">e</div>
-		<div data-note="82" class="keys ">r</div>
-		<div data-note="84" class="keys ">t</div>
-		<div data-note="89" class="keys ">y</div>
-		<div data-note="85" class="keys ">u</div>
-		<div data-note="73" class="keys ">i</div>
-		<div data-note="79" class="keys ">o</div>
-		<div data-note="80" class="keys ">p</div>	
+	
+<h1 class="heading" id="drumHeading">DRUMS</h1>
+
+	 <div id="drumSet">
+		<div data-note="81" class="keys drum">q</div>
+		<div data-note="87" class="keys drum">w</div>
+		<div data-note="69" class="keys drum">e</div>
+		<div data-note="82" class="keys drum">r</div>
+		<div data-note="84" class="keys drum">t</div>
+		<div data-note="89" class="keys drum">y</div>
+		<div data-note="85" class="keys drum">u</div>
+		<div data-note="73" class="keys drum">i</div>
+		<div data-note="79" class="keys drum">o</div>
+		<div data-note="80" class="keys drum">p</div>	
 	</div>
- -->
+
 <!-- each audio has a id equal to the datanote of the keys (which will help in accessing them)	 -->
  <audio id="65" src="audios/A.wav"></audio>	      
  <audio id="83" src="audios/S.wav"></audio>	
@@ -75,7 +79,7 @@
  <audio id="86" src="audios/V.wav"></audio>	
  <audio id="66" src="audios/B.wav"></audio>
 <!-- ------------------------------------------------------------------>
-<!-- <audio id="81" src="audios/Q.wav"></audio>
+<audio id="81" src="audios/Q.wav"></audio>
 <audio id="87" src="audios/W.wav"></audio>
 <audio id="69" src="audios/E.wav"></audio>
 <audio id="82" src="audios/R.wav"></audio>
@@ -84,7 +88,7 @@
 <audio id="85" src="audios/U.wav"></audio>
 <audio id="73" src="audios/I.wav"></audio>
 <audio id="79" src="audios/O.wav"></audio>
-<audio id="80" src="audios/P.wav"></audio> -->
+<audio id="80" src="audios/P.wav"></audio> 
 	
 <p id="note">For better experience rotate your phone.</p>
 </section>
